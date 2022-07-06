@@ -5,7 +5,7 @@ import Resume from './Resume'
 
 function Introduction() {
   return (
-    <div className='introduction'>
+    <div id='home' className='introduction'>
         <Hello />
         <Avatar />
         <Resume />
