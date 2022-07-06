@@ -4,7 +4,6 @@ header {
     overflow: hidden;
 }
 
-  
 header::after {
     content: "";
     background: url(../../assets/header_bg.jpg);

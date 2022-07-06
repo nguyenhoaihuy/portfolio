@@ -7,6 +7,7 @@ body {
 
 :root {
     --color-bg: #6998AB;
+    --color-light-bg: #B1D0E0;
     --color-primary: #406882;
     --color-primary-variant: #1A374D;
     --color-primary-font: #B1D0E0;
@@ -31,7 +32,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(./assets/bg.jpg);
+    /* background-image: url(./assets/bg.jpg); */
     color: var(--color-primary-font);
     line-height: 1.7;
 }
