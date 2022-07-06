@@ -2,6 +2,7 @@
 body {
     background: black;
     color: white;
+    
 }
 
 :root {
@@ -30,7 +31,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background-image: url(./assets/bg.jpg);
     color: var(--color-primary-font);
     line-height: 1.7;
 }
@@ -93,7 +94,7 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: var(--color-primary-variant);
     color: var(--color-bg);
 }
 
@@ -101,6 +102,11 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+section {
+    margin-top: 8rem;
+    height: 100vh;
 }
 
 /* ================== MEDIA QUERIES - MEDIUM DEVICES ====================*/

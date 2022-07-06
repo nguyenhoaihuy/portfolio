@@ -2,7 +2,7 @@ import React from 'react'
 
 function Stories() {
   return (
-    <div>Stories</div>
+    <section id='story'>Stories</section>
   )
 }
 
