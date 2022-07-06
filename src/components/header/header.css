@@ -4,6 +4,19 @@ header {
     overflow: hidden;
 }
 
+  
+header::after {
+    content: "";
+    background: url(../../assets/header_bg.jpg);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
 .header__container {
     text-align: center;
     height: 100%;
@@ -23,7 +36,11 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
 
+.resume > a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*==================== HEADER SOCIALS ===================*/
@@ -46,4 +63,23 @@ header {
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+}
+
+.introduction {
+    width: 75%;
+}
+
+/* ================== MEDIA QUERIES - MEDIUM DEVICES ====================*/
+@media screen and (max-width: 1024px) {
+    .introduction {
+        width: 100%
+    }
+    
+}
+/* ================== MEDIA QUERIES - SMALL DEVICES ====================*/
+@media screen and (max-width: 600px) {
+    .introduction {
+        width: 100%;
+    }
+    
 }

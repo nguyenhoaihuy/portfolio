@@ -94,7 +94,7 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-primary-variant);
+    background: var(--color-primary);
     color: var(--color-bg);
 }
 

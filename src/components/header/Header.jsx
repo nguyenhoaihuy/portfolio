@@ -1,9 +1,7 @@
 import React from 'react'
 import './header.css'
-import Hello from './Hello'
-import Avatar from './Avatar'
-import Resume from './Resume'
 import SocialIcon from './SocialIcon'
+import Introduction from './Introduction'
 
 
 
@@ -12,9 +10,7 @@ function Header() {
   return (
     <header>
         <section id='header' className="container header__container">
-            <Hello />
-            <Avatar />
-            <Resume />
+            <Introduction />
             <SocialIcon />
         </section>
     </header>
