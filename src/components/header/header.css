@@ -81,5 +81,17 @@ header::after {
     .introduction {
         width: 100%;
     }
-    
+    .me > img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .header__socials {
+        bottom: 5rem;
+    }
+
+    header {
+        padding-top: 4rem;
+    }
 }
