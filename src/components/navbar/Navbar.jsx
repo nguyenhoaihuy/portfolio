@@ -6,6 +6,7 @@ import { AiOutlineUser } from 'react-icons/ai'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 import { HiOutlineOfficeBuilding } from 'react-icons/hi'
 import { MdOutlineSchool } from 'react-icons/md'
+import { AiOutlineProject } from 'react-icons/ai'
 
 function Navbar() {
   return (
@@ -14,6 +15,7 @@ function Navbar() {
       <a href='#about'><AiOutlineUser /></a>
       <a href='#experience'><HiOutlineOfficeBuilding /></a>
       <a href='#education'><MdOutlineSchool /></a>
+      <a href='#project'><AiOutlineProject /></a>
       <a href='#story'><BiBook /></a>
       <a href='#contact'><BiMessageSquareDetail /></a>
       
